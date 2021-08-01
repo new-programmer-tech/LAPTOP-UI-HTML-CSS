@@ -8,11 +8,14 @@ body
 {
 font-family: 'Poppins', sans-serif;
 }
-button{
+
+button
+{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header
+{
     display:flex;
     margin:0 auto;
     width:90%;
@@ -25,13 +28,12 @@ header{
     font-weight:bold;
 }
 
-.nav{
-   
+.nav
+{
     text-decoration: none;
     color:black;
     margin-right: 8rem;
     font-size:1.2rem;
-    
 }
 
 .cart-img
@@ -41,9 +43,9 @@ header{
     cursor: pointer ;
 }
 
-.flex{
+.flex
+{
     display:flex;
-
 }
 
 .justify
@@ -51,42 +53,45 @@ header{
     justify-content:space-between;
 }
 
-.logo-container{
-    margin-left: 1rem;
-    
+.logo-container
+{
+    margin-left: 1rem;   
 }
 
-.logo-img{
+.logo-img
+{
     margin-right: 0.5rem;
     cursor: pointer;
 }
 
-.cover img {
+.cover img 
+{
     height:60vh;
-
     /* //for shadow */
     filter:drop-shadow(0px 5px 3px black);
     animation: drop 1.5s ease;
-
 }
 
-.presentation{
+.presentation
+{
     align-items: center;
     width:90%;
     margin:auto;
     min-height: 80vh;
-
 }
 
-.introduction{
+.introduction
+{
     flex:1;
 }
 
-.cover{
+.cover
+{
     flex:1;
 }
 
-.intro-text h1{
+.intro-text h1
+{
     font-size:2.2rem;
     font-weight:500;
     background:linear-gradient(to right,#494964,#6f6f89);
@@ -94,7 +99,8 @@ header{
     -webkit-text-full-color:transparent;
 }
 
-.intro-text p{
+.intro-text p
+{
     margin-top:1rem;
     line-height:1.5;
     font-size:1rem;
@@ -107,18 +113,20 @@ header{
     list-style:none;
 }
 
-.cta{
+.cta
+{
     padding:50px 0 0 0 ;
 }
-.cta-select{
+
+.cta-select
+{
     border:2px solid #c36cbb;
     color:#c36cbb;
     background:transparent;
     cursor: pointer;
     width:150px;
     height:50px;
-    font-size:1.1rem;
-   
+    font-size:1.1rem;  
 }
 
 .cta-add
@@ -130,11 +138,11 @@ header{
     width:150px;
     height:50px;
     font-size:1.1rem;
-    margin:30px 0 0 30px;
-    
+    margin:30px 0 0 30px;   
 }
 
-.big{
+.big
+{
     position:absolute;
     top:0;
     right:0;
@@ -149,11 +157,11 @@ header{
     top:30%;
     right:30%;
     opacity: 0.4;
-    z-index:-1;
-    
+    z-index:-1;   
 }
 
-.small{
+.small
+{
 position:absolute;
 bottom:0%;
 left:8%;
